@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    /*text-align: center;*/
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.header-title{
+    margin-left: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.magazine {
+    width: 30%;
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+h3 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+.login-link{
+    color: white;
+    font-size: 20px;
+}
+
+.reg-link{
+    color: white;
+    font-size: 20px;
+}
